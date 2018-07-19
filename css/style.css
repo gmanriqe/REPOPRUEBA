@@ -5523,7 +5523,7 @@ Responsive
     }
 
         .viene-sec .owl-item.active {
-            display: none;
+            /* display: none; */
         }
 
     .sec2 .owl-item.active {

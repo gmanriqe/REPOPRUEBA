@@ -1,5 +1,7 @@
 ﻿$(document).ready(function () {
 
+    var divHtml = $('#eventoDia')[0]; /* LOGICA CAROUSEL MOVIL */
+
     var win = $(window);
 
     // fire it once on document.ready
@@ -8,10 +10,11 @@
     // Fires on every resize
     win.resize(resizeHandler);
 
+    // console.log(divHtml);
     function resizeHandler() {
         if (win.width() <= 769) {
 
-
+            var html='';
             $('.eventos-carousel').addClass('owl-carousel');
 
 
@@ -32,10 +35,7 @@
                     },
                 }
             });
-
             $('.eventos-carousel-2').addClass('owl-carousel');
-
-
             $('.eventos-carousel-2').owlCarousel({
                 stagePadding: 0,
                 loop: false,
@@ -71,4 +71,32 @@
 
         }
     }
+
+    /* INICIO LOGICA CAROUSEL MOVIL */
+    console.log('llego');
+    console.log(divHtml); /* TENER EN CUENTA */
+
+
+    function deleteElement(){
+        $('.owl-stage .owl-item').each(function(index,element){
+            var children = $(this).children().attr('id');
+                if(children == 'eventoDia'){
+                    $(this).trigger('remove.owl.carousel',0);
+                } 
+            })
+    }
+
+    if ($(window).width() <= 769) {
+        deleteElement();
+    }
+
+    $(window).resize(function () {
+        if ($(window).width() <= 769) {
+            deleteElement();
+        } else {
+            $('.eventos-carousel').prepend(divHtml);
+        }
+    });
+    
+    /* FIN LOGICA CAROUSEL MOVIL */
 });

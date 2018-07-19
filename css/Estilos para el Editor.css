@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+/**umb_name:Intro*/
+.intro{padding-bottom: 20px;
+border-bottom: solid 1px #f1f1f1;}
+
+/**umb_name:Contenido*/
+.normal-text{font-family: 'IBM Plex Serif', serif;
+font-size: 22px;
+color: #000;}
+
+/**umb_name:Cita*/
+.text-cita{padding-left: 60px;
+font-size: 18px;
+position: relative;
+margin: 50px 0;
+display: table-cell;}
+
+/**umb_name:Subtitulo*/
+.sub-normal{font-family: 'Libre Franklin', sans-serif;
+font-size: 18px;
+font-weight: bold;
+display: block;}

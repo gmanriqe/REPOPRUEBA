@@ -1,6 +1,7 @@
 ﻿$(document).ready(function () {
 
-    var divHtml = $('#eventoDia')[0]; /* LOGICA CAROUSEL MOVIL */
+    /* SE TENIA QUE MODIFICAR POR LA FORMA DEL FOREACH DE JAIME  */
+    var divHtml = $('#eventoDia').parent()[0]; /* LOGICA CAROUSEL MOVIL */ 
 
     var win = $(window);
 
@@ -79,7 +80,7 @@
 
     function deleteElement(){
         $('.owl-stage .owl-item').each(function(index,element){
-            var children = $(this).children().attr('id');
+            var children = $(this).children().children().attr('id'); /* MODIFIQUE POR JAIME */
                 if(children == 'eventoDia'){
                     $(this).trigger('remove.owl.carousel',0);
                 } 
@@ -97,6 +98,5 @@
             $('.eventos-carousel').prepend(divHtml);
         }
     });
-    
     /* FIN LOGICA CAROUSEL MOVIL */
 });

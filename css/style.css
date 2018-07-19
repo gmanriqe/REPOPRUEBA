@@ -4780,7 +4780,8 @@ Responsive
     }
 
     .module {
-        width: calc(100% - 80px);
+        /* width: calc(100% - 80px); */
+        width: inherit
     }
 
     .container__share {
@@ -5523,7 +5524,7 @@ Responsive
     }
 
         .viene-sec .owl-item.active {
-            /* display: none; */
+            /* display: none; */ /*COMENTAR EL ESTILO*/
         }
 
     .sec2 .owl-item.active {
@@ -6259,6 +6260,29 @@ Responsive
         margin-bottom: 0;
     }
 
+    .noticias-sec.temas + .middle-section .viene-sec .eventos-carousel .owl-item.active {
+        display: initial;
+    }
+
+    .resultado-top-sec + .invest-sec.proyectos-page .investigaciones-carousel .invg-tab h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .noticias-sec + .middle-section .investigaciones-sec .investigaciones-carousel .invg-tab h4 span a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+    }
+
+    .banner-ciup.eventos + .nosotros-sec .viene-sec {
+        padding-bottom: 0;
+    }
 }
 
 
@@ -6328,7 +6352,7 @@ Responsive
     }
 
     .viene-item.eventos.hoy.movil h4 {
-        width: 70%;
+        width: inherit;
     }
 
     .container-fluid.comite-sec {

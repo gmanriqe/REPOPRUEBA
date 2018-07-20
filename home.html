@@ -95,7 +95,7 @@
 						<div class="card-header" id="heading1">
 							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-controls="collapse1">
 								<span>
-									<a href="">Econom&#237;a</a>
+									<a href="economia.html">Econom&#237;a</a>
 								</span>
 								<span>+</span>
 							</button>
@@ -1574,6 +1574,7 @@ ArletteBeltrán                                                        </strong>
 			var attr = $(this).attr("href");
 			console.log(attr);
 			if (attr == slugUrl) {
+				
 				$(this).addClass("active-up");
 			}
 		})
@@ -1581,7 +1582,26 @@ ArletteBeltrán                                                        </strong>
 	</script>
 	<!-- <li class="nav-item">
         <a data-menu="nosotros" class="nav-link" href="nosotros.html">Nosotros</a>
-    </li> -->
+	</li> -->
+	<script>
+		/*$(document).ready(function(){
+			function removeMobileScroll (e) {
+				e.preventDefault();
+			}
+			setInterval(function(){
+				if($(window).width()<= 769 ){
+
+					
+					$('.principal-click').click(function(){
+						$('*').not('.menu-left').bind('touchmove', false);	
+					});
+					
+				}else {
+					$('*').not('.menu-left').unbind('touchmove');
+				}			
+			})
+		},1000)*/
+	</script>
 
 </body>
 

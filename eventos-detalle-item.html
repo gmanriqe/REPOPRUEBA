@@ -1,6 +1,3 @@
-
-
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -8,9 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-
-
-
       <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <!-- Librerias CSS -->
@@ -21,6 +15,15 @@
    <link rel="stylesheet" href="css/style.css">
 
    <title>CIUP</title>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/prognroll.js"></script>
+    <!-- js del evento -->
 
 <style>
     /*botón up*/
@@ -57,7 +60,7 @@
         <div class="row">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="navscroll">
-                        <a href="/CIUP/"><img src="/CIUP/media/1020/logo-resp.png" alt=""></a>
+                        <a href="/CIUP/"><img src="img/logo-resp.png" alt=""></a>
                 </div>
                 <div class="links-scroll">
                     <a href="" class="principal-click"><img src="img/bars.png" alt=""></a>
@@ -66,7 +69,7 @@
                 </div>
             </div>
             <div class="menu-left">
-                    <a href="/CIUP/" class="home-link"><img src="/CIUP/media/1020/logo-resp.png" alt=""></a>
+                    <a href="/CIUP/" class="home-link"><img src="img/logo-resp.png" alt=""></a>
                 <a href="" class="close-link"><img src="img/close-icon.png" alt=""></a>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
@@ -747,7 +750,7 @@
                 <div class="eventos-title-section">
                                 <a href="/CIUP/temas/economía/macroeconomia/" class="tema" style="color:#fd7e14;">Macroeconomía</a>
                     <div class="title">
-                        <a href="#NoHayEnlace" target="_self" style="text-decoration:none;color:black;">TC Sessions Robotics 2018 jj</a>
+                        <a href="#NoHayEnlace" target="_self" style="text-decoration:none;color:black;">TC Sessions Robotics 2018</a>
                     </div>
                     <div class="evento-place">Lima</div>
                 </div>
@@ -760,7 +763,7 @@
                             <img class="icon-event" src="img/hora.svg" alt="">
                             <div class="info-data">
                                 <div class="info-title">Hora</div>
-                                <span>21:19 h </span>
+                                <span>11:16 h </span>
                                 
                             </div>
                         </div>
@@ -768,16 +771,22 @@
                             <img class="icon-event" src="img/location.svg" alt="">
                             <div class="info-data">
                                 <div class="info-title">Lugar</div>
-                                
+                                <span id="direccionMapa">Canaval Moreyra 150. Lima 27, Perú.</span>
+                                <span><a id="verMap1" style="cursor:pointer;">Ver Mapa</a></span>
+                                <span><a id="verMap2" style="cursor:pointer;display:none;">Ver Mapa</a></span>
                             </div>
-
                         </div>
                         <div class="col-lg-3">
                             <img class="icon-event" src="img/phone.svg" alt="">
                             <div class="info-data">
                                 <div class="info-title">Informes</div>
-                                <span></span>
+                                <span>298-7654</span>
                             </div>
+                        </div>
+                    </div>
+                    <div id="contenedorMaps" class="row" style="display:none;">
+                        <div class="col-lg-12">
+                            <div id="mapPopup" style="width:auto; height:300px">Google Maps</div>
                         </div>
                     </div>
                 </div>
@@ -889,7 +898,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="comite-item">
                                         <div class="image-investigadores">
-                                                <img src="/CIUP/media/1016/alejandro.png" class="rounded-circle" alt="">
+                                                <img src="img/alejandro.png" class="rounded-circle" alt="">
                                         </div>
                                         <h5>
                                             <a href="/CIUP/investigadores/gustavo-flores/">Gustavo Flores</a>
@@ -901,7 +910,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="comite-item">
                                         <div class="image-investigadores">
-                                                <img src="/CIUP/media/1017/investigador.png" class="rounded-circle" alt="">
+                                                <img src="img/investigador.png" class="rounded-circle" alt="">
                                         </div>
                                         <h5>
                                             <a href="/CIUP/investigadores/julio-aguirre/">Julio  Aguirre</a>
@@ -913,7 +922,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="comite-item">
                                         <div class="image-investigadores">
-                                                <img src="/CIUP/media/1018/user_2.png" class="rounded-circle" alt="">
+                                                <img src="img/user_2.png" class="rounded-circle" alt="">
                                         </div>
                                         <h5>
                                             <a href="/CIUP/investigadores/noelia-bernal/">Noelia  Bernal</a>
@@ -928,7 +937,7 @@
             </div>
         </div>
 
-<script src="/CIUP/scripts/eventos_detalle.js"></script>
+<script src="scripts/eventos_detalle.js"></script>
 
     <!-- Footer -->
     <footer class="container-fluid">
@@ -1067,19 +1076,57 @@
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/owl.carousel.min.js"></script>
-    <script src="scripts/scripts.js"></script>
-    <script src="scripts/prognroll.js"></script>
-    <!-- js del evento -->
+
     <script src="scripts/eventos-detalle.js"></script>
 
 
-    <!-- código HTMl botón subir (top)-->
 
+    <!-- GOOGLE MAPS -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuXoGUWqHzAoryFs8o1eaMpGBWNGeaT9g&callback=initMap" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $('#verMap1').click(function () {
+                debugger;
+                $('#contenedorMaps').show();
+                $('#verMap1').hide();
+                $('#verMap2').show();
+    
+                var address = $('#direccionMapa').text();
+                geocoder = new google.maps.Geocoder();
+    
+                geocoder.geocode({ 'address': address },
+                    function (results, status) {
+                        debugger
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            Coordenadas = results[0].geometry.location;
+                            map = new google.maps.Map(document.getElementById("mapPopup"),
+                                {
+                                    center: Coordenadas,
+                                    zoom: 17,
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                                });
+                            var marker = new google.maps.Marker({
+                                position: Coordenadas,
+                                title: address
+                            });
+                            marker.setMap(map);
+                        }
+                        else {
+                            $('#direccionMapa').text()= status; //serìa el texto , direccion ingresada.
+                        }
+                    }
+                );
+            });
+    
+            $('#verMap2').click(function () {
+                $('#contenedorMaps').hide();
+                $('#verMap1').show();
+                $('#verMap2').hide();
+            });
+        });
+    </script>
+
+    <!-- código HTMl botón subir (top)-->
     <!-- script para que funcione al 100% el botón ir arriba -->
     <script>
         //invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
@@ -1116,6 +1163,8 @@
             
         })
     </script>
+
+
 
 </body>
 </html>

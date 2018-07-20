@@ -204,12 +204,15 @@ footer {
     right: 0;
     position: fixed;
     top: 0;
-    height: 100%;
+
+    /* height: 100%; */
+    height: 100vh;
     list-style: none;
-    overflow-y: scroll;
+    overflow: scroll;
     overflow-x: hidden;
     transform: translateX(350px);
     transition: all .5s;
+    z-index: 9999;
 }
 
     .menu-left.show {
@@ -666,6 +669,7 @@ footer {
     position: absolute;
     width: 100%;
     overflow: hidden;
+    z-index: 1;
 }
 
 .banner-data {
@@ -899,6 +903,7 @@ footer {
     display: inline-block;
     width: 100%;
     position: absolute;
+    z-index: 1;
     height: 1px;
     bottom: 0;
     background: rgb(39,62,149);
@@ -1277,6 +1282,7 @@ footer {
     position: relative;
     background: #fff;
     border-bottom: solid 1px #f1f1f1;
+    z-index: 1;
 }
 
 
@@ -2986,8 +2992,9 @@ Temas
         border: solid 1px red;
         position: relative;
         display: inline-block;
-        min-width: 100%;
-        min-height: 100%;
+        min-width: 100%; 
+        min-height: inherit; /*evento hoy*/
+        /*height: 160px; evento hoy*/
         width: 110%;
     }
 
@@ -4140,6 +4147,7 @@ Responsive
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+
     .tendencias {
         display: block;
         background: none;
@@ -4486,6 +4494,16 @@ Responsive
 }
 
 @media screen and (max-width: 768px) {
+    .resultado-top-sec + .resultados-sec .section-title {
+        margin-bottom: 35px;
+    }
+    .viene-sec .event__movil .movil h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
     /* SLIDER TEMA */
     .newsq-tema .newsq-item .newsq-data-Banner .destacado-tema-descripcion h1 a {
         font-size: 15px !important;
@@ -4624,7 +4642,8 @@ Responsive
     }
 
     .event__movil .viene-item.eventos.hoy {
-        padding: 50px 10px;
+        padding: 30px 10px; /*evento hoy*/
+        margin-bottom: 25px;
     }
 
     .eventos-detalle-sec .event-text {
@@ -4871,6 +4890,7 @@ Responsive
 
     .banner-back {
         position: relative;
+        z-index: 1
     }
 
     .banner:after {
@@ -5352,6 +5372,7 @@ Responsive
         }
 
     .menu-left {
+        z-index: 9999;
         width: 100%;
         transform: translateX(100%);
     }
@@ -5420,6 +5441,7 @@ Responsive
         min-height: 280px;
         box-shadow: none;
         margin-bottom: 0;
+        background: none;
     }
 
     .libro-item .libro-pic {
@@ -5427,7 +5449,7 @@ Responsive
     }
 
     .libro-item .author {
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .libro-item {
@@ -5726,7 +5748,7 @@ Responsive
     }
 
     .invg-tab {
-        border-right: solid 1px #f1f1f1;
+        /* border-right: solid 1px #f1f1f1; */
     }
 
     .libros-area-sec .libro-item {
@@ -6097,6 +6119,7 @@ Responsive
 
     .newsq .owl-stage-outer {
         margin-right: -30px;
+        z-index: 1;
     }
 
     /*.noticias-sec .newsq .owl-stage-outer {
@@ -6142,7 +6165,7 @@ Responsive
         }
 
     .libro-item .tema {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .video-item {
@@ -6283,13 +6306,46 @@ Responsive
     .banner-ciup.eventos + .nosotros-sec .viene-sec {
         padding-bottom: 0;
     }
+
+    .investigador-info + .last-pub-sec .investigaciones-carousel .invg-tab h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .first-section.eventos-detalle-sec + .agenda-sec {
+        padding-bottom: 0;
+    }
+
+    /* .noticias-sec + .middle-section .libros-sec .section-title {
+        margin-bottom: 10px;;
+    } */
+    .libros-sec .section-title {
+        margin-bottom: 10px;
+    }
+
+    .noticias-sec + .middle-section .viene-sec .section-title,
+    .noticias-sec.temas + .middle-section .viene-sec .section-title {
+        margin-bottom: 10px;
+    }
+
+    .banner-temas + .noticias-sec.temas .lonuevo-tema .lnitem h6 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+
+    .noticias-sec.temas + .middle-section .investigadores-sec .section-title {
+        margin-bottom: 55px;
+    }
 }
 
 
 @media screen and (max-width: 576px) {
-
-    
-
     .tendencias {
         display: block;
         background: none;
@@ -6352,7 +6408,9 @@ Responsive
     }
 
     .viene-item.eventos.hoy.movil h4 {
-        width: inherit;
+        /* width: inherit;  */ /*evento hoy*/
+        width: initial;
+        margin-bottom: 0;
     }
 
     .container-fluid.comite-sec {

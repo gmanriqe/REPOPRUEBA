@@ -38,7 +38,7 @@ $('.close-link').click(function (e) {
 });
 
 $('#accordionExample').on('shown.bs.collapse', function () {
-
+// debugger
     $('.btn-plus[aria-expanded="true"]').html('-');
 
 })

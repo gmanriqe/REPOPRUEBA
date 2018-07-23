@@ -3997,6 +3997,10 @@ table.table.table-ficha tr th:first-child {
     padding-left: 0;
 }
 
+#search-results .resultados-sec .section-title {
+    margin-bottom: 30px;
+}
+
 /*=========
 Responsive
 ==========*/
@@ -4557,6 +4561,7 @@ Responsive
 }
 
 @media screen and (max-width: 768px) {
+
     .temas + .middle-section .investigaciones-sec .section-title,
     .temas + .middle-section .investigadores-sec .section-title,
     .temas + .middle-section .libros-sec .section-title   {

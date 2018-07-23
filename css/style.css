@@ -202,11 +202,11 @@ footer {
     border-top: solid 1px #f1f1f1;
     width: 350px;
     right: 0;
-    position: fixed;
-    top: 0;
 
-    /* height: 100%; */
-    height: 100vh;
+    position: fixed;
+
+    height: 100%;
+    /* height: 100vh; */
     list-style: none;
     overflow: scroll;
     overflow-x: hidden;
@@ -3516,9 +3516,24 @@ Buscar
         padding-right: 15px;
     }
 
+.container__form-search { /*formulario buscar*/
+    width: 100%;
+}
+
 .filtro-cont {
-    width: 30%;
+    /* width: 30%;  */
+    width: 22%; /*formulario buscar*/
     /*padding: 0 15px;*/
+}
+
+.fstElement { /*formulario buscar*/
+    width: 100%; 
+}
+
+.fstElement.fstMultipleMode { /*formulario buscar*/
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #1e2b58;
 }
 
     .filtro-cont p {
@@ -4018,9 +4033,16 @@ table.table.table-ficha tr th:first-child {
     bottom: 24px;
 }
 
+.filtro-cont .fstMultipleMode .fstControls { /*formulario buscar*/
+    width: inherit;
+    /* height: 34px;
+    overflow-y: scroll; */
+}
+
 /*=========
 Responsive
 ==========*/
+/*  Media Querie Laptops*/ /*responsive_laptops*/
 @media screen and (min-width: 993px) and (max-width: 1290px) {
     .newsq-data-Banner h1 {
         font-size: 28px;
@@ -4147,7 +4169,8 @@ Responsive
     }*/
 
     .filtro-cont {
-        width: 32%;
+        /* width: 32%; */
+        width: 22%; /*formulario buscar*/
     }
 
         .filtro-cont select {
@@ -4230,6 +4253,7 @@ Responsive
     }
 }
 
+/* Media Querie Tablet */ /*responsive_tablets*/
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
     .tendencias {
@@ -4478,7 +4502,8 @@ Responsive
     }
 
     .filtro-cont {
-        width: 30%;
+        /* width: 30%; */
+        width: 22%; /*formulario buscar*/
     }
 
         .filtro-cont select {
@@ -4577,7 +4602,19 @@ Responsive
     }
 }
 
+/* Media Querie Movil*/ /*responsive_movil*/
 @media screen and (max-width: 768px) {
+    .remove__filter {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .remove__filter .remove__filter-text {
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold;
+    }
+
     .lonuevo .lnitem .data-ln, .lonuevo .lnitem .data-ln { /*lo nuevo*/
         position: initial;
     }
@@ -5432,7 +5469,9 @@ Responsive
         }
 
     .eliminar-button {
-        margin: auto;
+        /*margin: auto;*/ /*formulario buscar*/
+        margin-top: 0; /*formulario buscar*/
+        margin-left: 10px; /*formulario buscar*/
     }
 
     .resultado-top-sec {
@@ -5932,9 +5971,10 @@ Responsive
 
     .filtro-cont {
         width: 100%;
-        margin-left: 15px;
+        /* margin-left: 15px; */ /*formulario buscar*/
         /* margin-right: 15px; */
-        margin-bottom: 20px;
+        /*margin-bottom: 20px;*/ /*formulario buscar*/
+        margin-bottom: 5px; /*formulario buscar*/
         padding: 0;
     }
 
@@ -6479,7 +6519,7 @@ Responsive
     }
 }
 
-
+/* Media Querie Movil*/ /*responsive_movil*/
 @media screen and (max-width: 576px) {
     .tendencias {
         display: block;
@@ -6577,6 +6617,7 @@ Responsive
     }
 
 }
+
 /*nuevo*/
 aside:after {
     content: '';

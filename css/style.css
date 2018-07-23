@@ -799,6 +799,7 @@ footer {
 
         .lonuevo.lonuevo-tema .lnitem {
             height: 150px;
+            position: relative /*lo nuevo*/
         }
 
 .newsq.newsq-tema {
@@ -4001,6 +4002,22 @@ table.table.table-ficha tr th:first-child {
     margin-bottom: 30px;
 }
 
+.lonuevo .lnitem .data-ln, .lonuevo .lnitem .data-ln .ln-tema a { /*lo nuevo*/
+    display: inline-block;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0;
+}
+
+.lonuevo .lnitem .data-ln, .lonuevo .lnitem .data-ln { /*lo nuevo*/
+    width: 100%;
+    display: flex; 
+    position: absolute;
+    bottom: 24px;
+}
+
 /*=========
 Responsive
 ==========*/
@@ -4561,6 +4578,9 @@ Responsive
 }
 
 @media screen and (max-width: 768px) {
+    .lonuevo .lnitem .data-ln, .lonuevo .lnitem .data-ln { /*lo nuevo*/
+        position: initial;
+    }
 
     .temas + .middle-section .investigaciones-sec .section-title,
     .temas + .middle-section .investigadores-sec .section-title,
@@ -5508,9 +5528,9 @@ Responsive
         padding-left: 10px;
     }
 
-    .lonuevo .lnitem .data-ln {
-        padding-left: 10px;
-    }
+    /* .lonuevo .lnitem .data-ln {
+        padding-left: 10px; 
+    }*/
 
     /*.ln-tema.matematica {
         color: var(--matematica);
@@ -5882,9 +5902,9 @@ Responsive
         padding-left: 10px !important;
     }
 
-    .lonuevo-tema .lnitem .data-ln {
+    /* .lonuevo-tema .lnitem .data-ln {
         padding-left: 10px !important;
-    }
+    } */
 
     .libros-sec .libro-item {
         padding-right: 10px;

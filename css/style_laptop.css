@@ -1,0 +1,211 @@
+/**************
+laptop
+***************/
+@media screen and (min-width: 993px) and (max-width: 1290px) {
+    .newsq-data-Banner h1 {
+        font-size: 28px;
+    }
+
+    .container-fluid.noticias-sec .container.noticias {
+        padding: 0px 60px;
+    }
+
+    .centro-item h6 {
+        font-size: 18px;
+    }
+
+    .centro-item p {
+        font-size: 15px;
+    }
+
+    .navbar-brand img {
+        height: 62px;
+    }
+
+    body .container {
+        padding: 0 15px;
+    }
+
+    .secondary-menu .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .banner-data {
+        padding-top: 45px;
+    }
+
+    .libro-item h4 a {
+        font-size: 15px;
+    }
+
+    .viene-item h4 a {
+        font-size: 25px;
+    }
+
+    .img-link {
+        height: 122px;
+    }
+
+    .pry-banner .row {
+        height: 322px;
+    }
+
+    .invest-pic img {
+        width: 300px;
+    }
+
+    .invest-data h1 {
+        font-size: 35px;
+    }
+
+    .invest-data p {
+        font-size: 19px;
+    }
+
+    .invest-data span {
+        font-size: 14px;
+    }
+
+    .lp-top {
+        height: 125px;
+    }
+
+    .pub-sin-foto {
+        padding-bottom: 20px;
+    }
+
+    .pub-sin-foto-top {
+        padding-top: 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .revistas-item {
+        height: 200px;
+    }
+
+    .iniciativa-item p {
+        font-size: 14px;
+    }
+
+    .iniciativa-item h4 {
+        font-size: 24px;
+    }
+
+    .iniciativa-item .iniciativa-pic {
+        height: 220px;
+    }
+
+    .iniciativa-item {
+        height: 220px;
+    }
+
+    /*.iniciativa-data {
+        height: 220px;
+    }*/
+
+    .lonuevo {
+        width: 25%;
+    }
+
+        .lonuevo.lonuevo-tema {
+            width: 25%;
+        }
+
+    .newsq.newsq-tema {
+        width: 75%;
+    }
+
+    .newsq {
+        width: 75%;
+    }
+
+    /*.link-temas {
+        width: inherit;
+    }*/
+
+    .filtro-cont {
+        width: 32%;
+    }
+
+        .filtro-cont select {
+            width: 100%;
+        }
+
+    .resultado-top-sec {
+        padding: 30px 15px;
+    }
+
+    /*.pub-sin-foto-width {
+        width: inherit;
+    }*/
+
+    .date-evento {
+        height: 140px;
+    }
+
+        .date-evento .fecha {
+            font-size: 26px;
+        }
+
+    .menu-scroll .container {
+        height: 60px;
+    }
+
+    .menu-scroll {
+        height: 60px;
+    }
+
+    .links-scroll img {
+        transform: scale(0.7);
+    }
+
+    .links-scroll a {
+        padding-left: 10px;
+    }
+
+    .navscroll img {
+        height: 35px;
+    }
+
+    .temas-menu-scroll .temas-menu-link a {
+        font-size: 13px;
+    }
+
+    .lonuevo .lnitem img {
+        display: none;
+    }
+
+    .hoy-resp {
+        display: none;
+    }
+
+    .menu-principal-link a:hover {
+        text-decoration: none;
+    }
+
+    .principal-click {
+        position: relative;
+    }
+
+        .principal-click:after {
+            content: "";
+            width: 1px;
+            height: 60px;
+            background: #e6e8ed;
+            position: absolute;
+            display: inline-block;
+            top: -20px;
+            right: -7px;
+        }
+
+    .nav-item .sub-item {
+        top: 40px !important;
+    }
+
+    .secondary-menu .nav-item .nav-link {
+        padding: 15px 12px;
+    }
+}

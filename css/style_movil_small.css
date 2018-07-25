@@ -1,0 +1,111 @@
+/**************
+small movil
+***************/
+@media screen and (max-width: 576px) {
+
+	.modal {
+		display: none;
+		position: absolute;
+		z-index: 1000;
+		top: 233px;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba( 255, 255, 255, .8 ) url('http://i.stack.imgur.com/FhHRx.gif') 50% 50% no-repeat;
+	}
+
+    .tendencias {
+        display: block;
+        background: none;
+        padding-bottom: 0;
+    }
+
+        .tendencias h5 {
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        .tendencias a {
+            color: #000;
+            padding: 10px 0 !important;
+            margin-bottom: 0;
+        }
+
+            .tendencias a:not(:last-child) {
+                border-bottom: solid 1px rgba(0,0,0,.02);
+            }
+
+    .middle-section h4 p.line-clamp-revistas {
+        width: inherit;
+    }
+
+    .middle-section h4 span.module{
+        width: inherit;
+    }
+
+    .middle-section p span.module {
+        width: 85%;
+    }
+
+    .invg-tab .tipo .img-movil {
+        width: 30px;
+        position: absolute;
+        top: -6px;
+    }
+
+    .middle-section .libros-sec{
+        padding-bottom: 0;
+    }
+
+    .middle-section .viene-sec{
+        padding-bottom: 0;
+    }
+
+    .middle-section .medios-sec{
+        padding-bottom: 0;
+    }
+
+    .middle-section .investigaciones-sec {
+        max-height: 480px;
+        padding-bottom: 0;
+    }
+
+    .newsq-item .type-new {
+        position: absolute;
+        right: 35px;
+    }
+
+    .viene-item.eventos.hoy.movil h4 {
+        /*width: 70%;*/
+        width: initial;
+    }
+
+    .container-fluid.comite-sec {
+        padding: 0 26px;
+    }
+
+    .container-fluid.areas-invst-sec > .container {
+        padding: 0 26px;
+    }
+
+    .pub-sin-foto-width .titular,
+    .pub-sin-foto-width .author-pry {
+        padding-left: 20px;
+    }
+
+    .titular .date {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        position: absolute;
+        bottom: -110px;
+        width: 83%;
+        padding-top: 9px;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    .pub-sin-foto .titular .date{
+        bottom: -80px;
+    }
+
+}

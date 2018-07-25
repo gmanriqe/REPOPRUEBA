@@ -1,0 +1,1992 @@
+/**************
+movil
+***************/
+@media screen and (max-width: 768px) {
+
+    .agenda-sec + .comite-sec-eventos {
+        padding-bottom: 0;
+    }
+
+    table.table.table-ficha tr th:first-child {
+        width: initial;
+    }
+
+    table.table.table-ficha tr td:first-child span {
+        width: 100%;
+    }
+
+    .table.table-ficha tbody tr:nth-child(2) td:first-child {
+        padding-left: 12px;
+    }
+
+    .pry-banner {
+        margin-bottom: 0;
+    }
+
+    .resultado-top-sec + .resultados-sec .section-title {
+        margin-bottom: 35px;
+    }
+
+    .noticias-sec.temas + .middle-section .investigadores-sec .section-title {
+        margin-bottom: 55px;
+    }
+
+    .banner-temas + .noticias-sec.temas .lonuevo-tema .lnitem h6 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+
+    .noticias-sec.temas + .middle-section .investigaciones-sec .investigaciones-carousel .invg-tab h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .investigador-info + .last-pub-sec .investigaciones-carousel .invg-tab h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .newsq-data-Banner{
+        margin-left: 0 !important;
+    }
+
+    .newsq-tema .newsq-item .newsq-data-Banner .destacado-tema-descripcion h1 a {
+        font-size: 15px !important;
+        font-family: "Libre Franklin";
+        line-height: 1.2;
+    }
+
+    .newsq-tema .newsq-item .newsq-data-Banner .destacado-tema-descripcion {
+        height: 60%;
+    }
+
+    .noticias-sec.temas .newsq.newsq-tema {
+        margin-left: 0;
+        padding: 0 22px;
+    }
+
+    .noticias-sec + .middle-section .investigaciones-sec .invg-tab h4 span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+    }
+
+    .noticias-sec + .middle-section .libros-sec .libro-item h4 span a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+
+    .links-temas-top {
+    }
+
+    .links-temas-bottom {
+    }
+
+    .first-section + .noticias-sec .lonuevo .module.line-clamp-lnitem h6 a,
+    .first-section + .noticias-sec .lonuevo .module. h6 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .newsq-data-Banner h1 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        font-size: 18px !important;
+    }
+
+    .info-tema {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        z-index: 22;
+        margin: 0px 10px;
+    }
+
+
+    .first-section + .noticias-sec .newsq .newsq-data h5 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .first-section + .noticias-sec .lonuevo .module.line-clamp-lnitem h6 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+
+    .agenda-sec .agenda-carousel .agenda-item {
+        border-right: none;
+    }
+
+    .agenda-carousel .owl-stage-outer .owl-stage .owl-item > div {
+        border-right: 1px solid rgba(0,0,0,.2);
+        max-height: 206px;
+    }
+
+    .agenda-carousel .owl-stage-outer .module.line-clamp-agenda {
+        margin: 0 0 5px 0;
+    }
+
+    .pub-sin-foto-width .titular .date{
+        bottom: -80px;
+    }
+
+    .medios-sec .medios-carousel .medios-item{
+        margin-bottom: 0;
+    }
+
+    a.btn__vermas {
+        display: block;
+        padding-bottom: 0;
+        text-align: center;
+        color: #000;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .resultados-sec#PrimeraSeccion{
+        padding-bottom: 62px;
+    }
+
+    .cuerpo-sec .pub-sin-foto-width{
+        padding-top: 45px;
+        padding-bottom: 0;
+    }
+
+    .pub-sin-foto .container::after{
+        content:none;
+    }
+
+    .eventos-detalle-sec .eventos-title-section{
+        margin-left: 0;
+        height: inherit;
+    }
+
+    .agenda-carousel .agenda-item{
+        height: 170px;
+    }
+
+    .agenda-carousel .agenda-item{
+        height: 170px;
+    }
+
+    .agenda-carousel .agenda-item .title{
+        min-height: 0;
+        margin-bottom: 6px;
+    }
+
+    .agenda-carousel .agenda-item .title span{
+        min-height: 0;
+        margin-bottom 0;
+    }
+
+    .eventos-detalle-sec .eventos-title-section {
+        margin-left: 0px;
+    }
+
+    .agenda-carousel .module{
+        width: inherit;
+    }
+
+    /*.first-section + div.agenda-sec{
+        padding-bottom: 0;
+    }*/
+
+    .proyectos-page .invg-tab .data{
+        position: static;
+    }
+
+    .proyectos-page .invg-tab h4{
+        margin-bottom: 30px;
+    }
+
+    .proyectos-page .invg-tab{
+        min-height: inherit;
+    }
+
+
+
+    .tendencias {
+        display: block;
+        background: none;
+        padding-bottom: 0;
+    }
+
+        .tendencias h5 {
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        .tendencias a {
+            color: #000;
+            padding: 10px 0 !important;
+            margin-bottom: 0;
+        }
+
+            .tendencias a:not(:last-child) {
+                /*border-bottom: solid 1px rgba(0,0,0,.05);*/
+                border-bottom: solid 1px #c9cbd0;
+            }
+
+    .medios-item {
+        padding: 15px 0 15px;
+    }
+
+    .event__movil .viene-item .date {
+        position: absolute;
+        top: 20px;
+    }
+
+    .viene-item.eventos.hoy.event__movil {
+        width: 100%;
+    }
+
+    .event__movil {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+
+    .viene-sec .viene-item.eventos {
+        /* padding: 40px 10; */
+        padding: 0;
+    }
+
+    .event__movil .viene-item.eventos.hoy {
+        padding: 20px 10px;
+    }
+
+    .eventos-detalle-sec .event-text {
+        padding-top: 15px;
+    }
+
+    .comite-sec-eventos {
+        padding: 30px 15px 10px;
+    }
+
+    .viene-item.eventos-pas {
+        padding: 20px 20px 20px 0;
+    }
+
+    .viene-item {
+        padding: 0;
+    }
+
+    .iniciativa-data .veriniciativa {
+        font-size: 11px;
+    }
+
+    .iniciativas-sec {
+        background-color: #fff;
+        padding: 30px 15px;
+    }
+
+    .container.pub-sin-foto-width.section__iniciativa {
+        padding: 20px 50px;
+    }
+
+    .pub-sin-foto-width.event-title {
+        padding-left: 0;
+    }
+
+    .newsq-data {
+        margin: -20px 30px;
+    }
+
+    .copy ul li {
+        display: block;
+    }
+
+    .copy p {
+        font-size: 13px;
+    }
+
+    .copy li a {
+        font-size: 13px;
+        padding-right: 0;
+        display: block;
+    }
+
+    .copy li:nth-child(1) {
+        padding-bottom: 18px;
+    }
+
+    .footer-item .dir span:not(:nth-child(2)) {
+        padding-left: 45px;
+    }
+
+    .footer-item li img {
+        margin-right: 24px;
+        transform: scale(1.2);
+    }
+
+    .main-footer .container .no-gutters div:nth-child(5) {
+        padding-left: 0 !important;
+    }
+
+    .container-fluid.comite-sec > .container {
+        padding: 40px 0px;
+    }
+
+    .container-fluid.areas-invst-sec > .container {
+        padding: 0;
+    }
+
+    .container-fluid.nosotros-sec {
+        padding: 0 26px;
+    }
+
+    .lonuevo .image-content {
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .titular .date {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+        position: absolute;
+        bottom: -110px;
+        width: 95%;
+        padding-top: 9px;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    .pub-sin-foto-width.event-title {
+        text-align: center;
+        padding: 20px 50px;
+    }
+
+    .vertodo {
+        position: absolute;
+        top: 12px;
+        font-size: 10px;
+        padding: 4px 8px;
+        font-weight: 600;
+    }
+
+    .about p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .centro-item h6 {
+        font-size: 20px;
+    }
+
+    .centro-item {
+        min-height: inherit;
+    }
+
+    .noticias-sec .lonuevo.order-2 h5 {
+        padding-left: 0 !important;
+    }
+
+    .noticias-sec .lonuevo.order-2 {
+        background-color: #f6f6f6;
+        padding: 15px 22px;
+        height: inherit;
+    }
+
+    .newsq .newsq-item .newsq-data-Banner {
+        padding: 0;
+        margin: 0px 30px;
+        width: 85%;
+    }
+
+    .newsq .newsq-item:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.4);
+        /*background-color: rgb(54, 82, 187);*/
+    }
+
+    .margen {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .module {
+        /*width: calc(100% - 80px);*/
+        width: inherit;
+    }
+
+    .container__share {
+        display: none;
+    }
+
+    .container__about {
+        width: 90%;
+    }
+
+        .container__about .about {
+            padding-top: 30px;
+            padding-left: 0;
+        }
+
+    .link-temas {
+        width: inherit;
+    }
+
+    .temas-top {
+        height: inherit;
+        background: none;
+        /*width: 92%;*/
+        /*margin: 0 auto;*/
+        /*padding: 15px 0 0 0;*/
+        padding: 15px 20px 0;
+    }
+
+    #info {
+        width: inherit;
+        margin: 0 auto;
+        /*max-width: 70%;*/
+    }
+
+        #info [class^='links-temas-']:first-child, #info [class^='links-temas-']:last-child {
+            text-align: center;
+            padding-top: 0;
+        }
+
+        #info [class^='links-temas-'] a {
+            color: #000;
+            margin-right: 0;
+            padding: 0 10px;
+        }
+
+        #info [class^='links-temas-']:first-child {
+            padding-bottom: 0px;
+        }
+
+    footer {
+        height: inherit;
+        padding: 20px;
+    }
+
+    .banner-temas {
+        height: 90px;
+    }
+
+    .copy {
+        display: inherit;
+        height: inherit;
+        padding: 20px;
+    }
+
+    .titular-sec {
+        padding: 42px 0 55px 0;
+    }
+
+    .copy .container {
+        display: inherit !important;
+    }
+
+    .copy ul {
+        margin-bottom: 20px;
+    }
+
+    .newsq-item .noticia-pic {
+        position: absolute;
+        z-index: 1;
+        /*width: 120% !important;*/
+        /* height: 100%; */
+        left: 50%;
+        transform: translate(-50%);
+        min-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner-back {
+        position: relative;
+    }
+
+    .banner:after {
+        display: none;
+    }
+
+    .owl-carousel .owl-stage {
+        padding-left: 0 !important;
+    }
+
+    .container.banner-data {
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    body .container {
+        padding: 15px;
+        max-width: 540px;
+    }
+
+    .tendencias {
+        height: inherit;
+    }
+
+    .area-invst-sec, .last-invst-sec {
+        padding: 20px 0;
+    }
+
+    .secondary-menu .search-link {
+        background: #3652bb;
+        color: #fff;
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+    }
+
+    .area-item:nth-child(-n+5) {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    .area-item {
+        width: 100%;
+        border-bottom: 1px solid #f1f1f1;
+        padding-bottom: 25px;
+    }
+
+    .container__area::after {
+        display: none;
+    }
+
+    .comite-item {
+        text-align: center;
+    }
+
+        .comite-item img {
+            float: initial
+        }
+
+    .editorial-item .pic {
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+
+    .editorial-item p {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 18px;
+        height: inherit;
+    }
+
+    .share p {
+        display: inline-block;
+    }
+
+    .share a {
+        display: inline-block;
+        padding: 15px;
+    }
+
+    .lonuevo {
+        width: 100%;
+    }
+
+    .newsq {
+        width: 100%;
+        background: none;
+        margin-top: 20px;
+    }
+
+    .newsq-item .type-new {
+        width: 25px !important;
+    }
+
+    .newsq-item {
+        width: 100%;
+        height: 250px;
+    }
+
+        .newsq-item h5 {
+            font-size: 18px;
+        }
+
+    .tendencias {
+        /*display: none;*/
+    }
+
+        .tendencias a {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    .banner-author:hover, .banner-date:hover {
+        color: gray;
+    }
+
+    .banner-author, .banner-date {
+        color: gray;
+    }
+
+    .banner {
+        height: inherit;
+    }
+
+    .banner-data {
+        padding: 20px;
+    }
+
+    .banner-title a {
+        width: 100%;
+        font-size: 28px;
+        line-height: 30px;
+        color: #000;
+        margin-top: 0;
+    }
+
+    .banner-title{
+        padding-bottom: 0 !important;
+    }
+
+    .noticias {
+        margin-top: 0px;
+    }
+
+    .libro-item h4 {
+        line-height: 18px;
+    }
+
+        .libro-item h4 a {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+    .libro-item {
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+
+    .medios-item {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        width: 72%;
+        font-size: 24px;
+    }
+
+    .titular .titulo {
+        font-size: 25px;
+        line-height: 42px;
+    }
+
+    .pry-banner .row {
+        height: 200px;
+    }
+
+        .pry-banner .row img {
+            height: 100%;
+            width: inherit;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+    .cuerpo-text {
+        font-size: 20px;
+    }
+
+    .ficha {
+        margin-bottom: 40px;
+    }
+
+    .result {
+        margin-bottom: 30px;
+    }
+
+    .resultado-top-sec .order {
+        text-align: left;
+    }
+
+    .banner-ciup p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .resultado-top-sec .order a {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .invest-pic img {
+        width: 200px;
+    }
+
+    .invest-data h1 {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .invest-data p {
+        font-size: 18px;
+    }
+
+    .invest-data span {
+        font-size: 14px;
+    }
+
+    .investigador-sec {
+        padding-bottom: 20px;
+    }
+
+    .share.detail a {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .lp-top {
+        height: 140px;
+    }
+
+    .invest-pic {
+        margin-bottom: 20px;
+    }
+
+    .mr-top {
+        margin-top: 40px;
+    }
+
+    .pub-sin-foto {
+        padding-bottom: 20px;
+    }
+
+    .pub-sin-foto-top {
+        padding-top: 20px;
+    }
+
+    .revistas-sec {
+        padding: 40px 0;
+    }
+
+    .revistas-item p {
+        font-size: 16px;
+    }
+    
+    p .module .line-clamp-revistas{
+        width: 100%;
+    }
+
+    .revistas-item img {
+        width: 100px;
+    }
+
+    .banner-ciup h1 {
+        font-size: 30px;
+    }
+
+    .temas-top a {
+        font-size: 12px;
+        display: block;
+        padding-bottom: 15px
+    }
+
+    .links-temas-bottom {
+        padding-top: 0;
+    }
+
+    .links-temas-top {
+        border-bottom: 0;
+    }
+
+    .noticias {
+        margin-bottom: 0;
+    }
+
+    .noticias-sec.temas .noticias {
+        margin-top: -150px;
+    }
+
+    .banner-temas h1 {
+        font-size: 25px;
+    }
+
+    .banner-temas.politica h1::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner-temas {
+        padding-top: 27px;
+    }
+
+    .temas-top h5 {
+        width: 30%;
+    }
+
+    .libros-sec, .viene-sec, .investigaciones-sec, .medios-sec, .videos-sec, .revistas-sec, .investigadores-sec {
+        padding: 40px 0;
+    }
+
+    .iniciativa-item .iniciativa-pic {
+        float: inherit;
+        height: 200px;
+        width: 100%;
+        overflow: hidden;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+        .iniciativa-item .iniciativa-pic img {
+            width: 100%;
+            height: inherit;
+        }
+
+    .iniciativa-item {
+        height: inherit;
+    }
+
+    /*.iniciativa-data {
+        height: inherit;
+    }*/
+
+    .secondary-menu {
+        height: inherit;
+        max-width: 540px;
+        margin: auto;
+    }
+
+    .primary-menu .nav-item:not(:last-child):after {
+        display: none;
+    }
+
+    .primary-menu .nav-item .nav-link {
+        padding: 10px 0;
+    }
+
+    .secondary-menu .nav-item .nav-link {
+        padding: 15px 0;
+    }
+
+    .primary-menu {
+        height: 75px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 40px;
+    }
+
+    .newsq.newsq-tema {
+        width: 100%;
+        /*margin-left: 22px;*/
+    }
+
+        .newsq.newsq-tema .newsq-item {
+            height: 250px
+        }
+
+    .newsq-item .newsq-author {
+        font-size: 11px;
+    }
+
+    .newsq-item .newsq-date {
+        font-size: 10px;
+    }
+
+    .newsq.newsq-tema h1 {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: 17px;
+    }
+
+    .pub-sin-foto-width {
+        width: inherit;
+    }
+
+    .pub-sin-foto-width {
+    }
+
+    .card-columns {
+        column-count: 1;
+    }
+
+    .buscador-filtros {
+        height: inherit;
+        padding: 20px;
+    }
+
+    .filtro-cont {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .filtro-cont select {
+            width: 100%;
+        }
+
+    .eliminar-button {
+        margin: auto;
+    }
+
+    .resultado-top-sec {
+        padding: 0 15px;
+    }
+
+        .resultado-top-sec .order span {
+            display: block;
+        }
+
+        .resultado-top-sec .order {
+            text-align: center;
+        }
+
+            .resultado-top-sec .order a {
+                display: inline-block;
+            }
+
+    .menu-scroll .container {
+        height: 60px;
+    }
+
+    .menu-scroll {
+        display: inline-block;
+        height: 60px;
+    }
+
+    .links-scroll img {
+        transform: scale(0.7);
+    }
+
+    .links-scroll a {
+        /*padding-left: 10px;*/
+        padding-left: 8px;
+    }
+
+    .navscroll img {
+        height: 30px;
+    }
+
+    .temas-menu-scroll .temas-menu-link a {
+        font-size: 15px;
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    .menus {
+        display: none
+    }
+
+    .temas-menu-scroll.show {
+        display: inline-block;
+    }
+
+    .first-section {
+        margin-top: 60px;
+    }
+
+    .menu-principal-link {
+        display: block;
+    }
+
+        .menu-principal-link a {
+            padding: 10px 0;
+        }
+
+    .menu-left {
+        width: 100%;
+        transform: translateX(100%);
+    }
+
+    .lonuevo .lnitem {
+        height: 150px;
+        padding: 15px 0;
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .lonuevo.lonuevo-tema .lnitem {
+        /*height: 140px;*/
+        height: inherit;
+    }
+
+    .lonuevo .lnitem img {
+        display: block;
+        float: left;
+        max-width: 100%;
+    }
+
+    .lonuevo .lnitem a h6 {
+        /*width: 70%;*/
+        padding-left: 10px;
+    }
+
+    .lonuevo .lnitem .data-ln {
+        /*padding-left: 10px;*/
+    }
+
+    /*.ln-tema.matematica {
+        color: var(--matematica);
+    }
+
+    .ln-tema.politica {
+        color: var(--politica);
+    }
+
+    .ln-tema.finanzas {
+        color: var(--finanzas);
+    }
+
+    .ln-tema.educacion {
+        color: var(--educacion);
+    }
+
+    .ln-tema.sociedad {
+        color: var(--sociedad);
+    }
+
+    .ln-tema.empresa {
+        color: var(--empresa);
+    }
+
+    .ln-tema.economia {
+        color: #3C89E5;
+    }
+
+    .ln-tema.gray {
+        color: #938c84;
+    }*/
+
+    .invg-tab {
+        min-height: 280px;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+        .invg-tab h4 a {
+            font-size: 20px;
+        }
+
+    .libro-item .libro-pic {
+        display: none;
+    }
+
+    .libro-item .author {
+        /*margin-top: 30px;*/
+        margin-top: 5px;
+    }
+
+    .libro-item {
+        margin-bottom: 0;
+    }
+
+    .revistas-item {
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+        .revistas-item:hover {
+            box-shadow: none;
+        }
+
+    .revistas-sec .row :nth-child(2) .revistas-item {
+        border-bottom: solid 1px #f1f1f1;
+    }
+
+    .img-link .play {
+        width: 30px !important;
+        bottom: 15px;
+    }
+
+    footer .row .col-lg-2:first-child, footer .row .col-lg-2:nth-child(2n), footer .row .col-lg-2:nth-child(2n+1) {
+        display: none;
+    }
+
+    .footer-item h5 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .footer-item p {
+        display: none;
+    }
+
+    .follow {
+        /*text-align: center;*/
+        padding-top: 0 !important;
+        padding-left: 45px;
+    }
+
+        .follow h5 {
+            display: inline-block;
+            margin-right: 28px;
+            font-size: 20px;
+        }
+
+    .follow a{
+        padding-right: 28px;
+    }
+
+    .contact .dir span{
+        padding-bottom: 12px;
+    }
+
+    .copy {
+        text-align: center;
+    }
+
+    .resultado-item img {
+        display: inline !important;
+        width: 180px !important;
+    }
+
+    .resultados-sec {
+        padding-bottom: 20px;
+    }
+
+        .resultados-sec > .container {
+            margin-bottom: 0;
+        }
+
+    .resultado-item {
+        margin-bottom: 0;
+    }
+
+    .invest-data {
+        text-align: center;
+    }
+
+    .investigador-info .share {
+        display: none;
+    }
+
+    .last-pub-sec {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .lp-top .type {
+        width: 15% !important;
+    }
+
+    .hoy-resp-car {
+        display: none;
+    }
+
+    .hoy-resp {
+        display: block;
+    }
+
+    .viene-sec {
+        width: 100%;
+    }
+
+        .viene-sec .owl-item.active {
+            /*display: none;*/
+        }
+
+    .sec2 .owl-item.active {
+        display: inherit;
+    }
+
+    .descripcion_titulo {
+        font-size: 24px;
+        margin: 35px 0;
+    }
+
+    .descripcion_descripcion {
+        font-size: 19px;
+        margin-top: 35px;
+    }
+
+    .titular .titulo {
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    .author-pry p {
+        font-size: 13px;
+    }
+
+    .author-pry span {
+        display: none;
+    }
+
+    .pub-sin-foto-width .share {
+        display: none;
+    }
+
+    .pub-sin-foto {
+        padding-bottom: 0;
+    }
+
+    .pub-sin-foto-top {
+        padding-top: 0;
+    }
+
+        .pub-sin-foto-top .share {
+            display: none;
+        }
+
+    .menu-principal-link a {
+        color: rgba(0,0,0,.5);
+        font-size: 14px;
+        margin: 0 13px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .principal-click {
+        position: relative;
+    }
+
+
+        .principal-click:after {
+            content: "";
+            width: 1px;
+            height: 60px;
+            background: #e6e8ed;
+            position: absolute;
+            display: inline-block;
+            top: -19px;
+            /*right: -9px;*/
+            right: -6px;
+        }
+
+    .noticias-sec.temas .noticias {
+        margin-top: 0;
+    }
+
+    .noticias-sec.temas {
+        /*background: #fff;*/
+    }
+
+    .lonuevo.lonuevo-tema {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .noticias-sec.temas .lonuevo {
+        padding: 15px 20px;
+        background-color: #F6F6F6;
+        height: inherit;
+    }
+
+    .lonuevo.lonuevo-tema .lnitem a h6 {
+        padding-left: 0;
+    }
+
+    .lonuevo.lonuevo-tema .lnitem .data-ln {
+        padding-left: 0;
+    }
+
+    .temas-top {
+        background: none;
+    }
+
+        .temas-top h5 {
+            display: none;
+        }
+
+    .link-temas.politica a {
+        color: var(--politica);
+        width: 50%;
+        float: left;
+    }
+
+    .date-evento {
+        background: #3652bb;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+        margin-top: 30px;
+        height: 140px;
+        width: 310px;
+        margin: 10px auto;
+    }
+
+        .date-evento .fecha {
+            font-size: 22px;
+            text-transform: capitalize;
+            margin: 7px 0 15px;
+        }
+
+        .date-evento .day, .date-evento .year {
+            font-size: 17px;
+            text-transform: uppercase;
+        }
+
+    .eventos-title-section .tema {
+        margin-bottom: 10px;
+    }
+
+    .eventos-title-section .title {
+        font-size: 24px;
+    }
+
+    .evento-place {
+        display: none;
+    }
+
+    .information:after {
+        background: #f1f1f1;
+    }
+
+    .eventos-detalle-sec .share {
+        display: none;
+    }
+
+    .eventos-detalle-sec .text-default {
+        padding-bottom: 15px;
+        border-bottom: solid 1px #f1f1f1;
+    }
+
+    .agenda-sec {
+        padding: 30px 15px 10px;
+        background: #f6f6f6;
+    }
+
+    .agenda-item {
+        background: transparent;
+        box-shadow: none;
+        border-right: solid 1px rgba(0,0,0,.2);
+        margin-bottom: 0;
+    }
+
+    .comite-item img {
+        width: 180px !important;
+        margin: auto;
+    }
+
+    .comite-item h5 a {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .comite-item p {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    /*.comite-sec-eventos {
+        padding-bottom: 0;
+    }*/
+
+    .area-investigacion {
+        text-align: center;
+    }
+
+    .share.area-invst {
+        display: none;
+    }
+
+    .invest-sec.areas {
+        padding-top: 0;
+    }
+
+    .invg-tab {
+        border-right: solid 1px #f1f1f1;
+    }
+
+    .libros-area-sec .libro-item {
+        padding: 15px;
+        border-right: solid 1px #f1f1f1;
+    }
+
+    .areas-invst-sec {
+        padding-top: 0;
+    }
+
+    .libros-area-sec {
+        padding: 0;
+    }
+
+    .lonuevo-tema .lnitem img {
+        display: block;
+        float: left;
+        max-width: 100%;
+    }
+
+    .lonuevo-tema .lnitem a h6 {
+        width: 70%;
+        padding-left: 10px !important;
+    }
+
+    .lonuevo-tema .lnitem .data-ln {
+        /*padding-left: 10px !important;*/
+    }
+
+    .libros-sec .libro-item {
+        padding-right: 10px;
+        border-right: 1px solid #f1f1f1;
+    }
+
+    .viene-item {
+        border-right: solid 1px #f1f1f1;
+    }
+
+    .medios-sec .medios-item {
+        border-right: solid 1px #f1f1f1;
+    }
+
+    .banner-temas img {
+        width: 35px;
+    }
+
+    .banner-buscar {
+        height: 220px;
+        text-align: center;
+        padding-top: 34px;
+        background: #f6f6f6;
+    }
+
+    .filtro-cont {
+        width: 100%;
+        margin-left: 15px;
+        /* margin-right: 15px; */
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .eliminar-sec span {
+        display: inline-block;
+        margin-right: 10px;
+        color: #fff;
+        font-family: Futura;
+    }
+
+    .eliminar-sec {
+        width: 100%;
+        text-align: right;
+    }
+
+    .resultado-top-sec .order a {
+        width: auto;
+        line-height: 33px;
+        font-size: 11px;
+        height: 32px;
+        float: none;
+        margin: 5px 2px;
+    }
+
+    .buscador-resultado-sec .card, .white-panel {
+        background: transparent;
+    }
+
+    .card .last-pub-item .lp-top {
+        display: none;
+    }
+
+    .card .lp-info {
+        background: transparent;
+    }
+
+    .lp-info {
+        position: relative;
+    }
+
+        .lp-info .type {
+            display: block;
+            position: absolute;
+            width: 30px;
+            right: 15px;
+            top: 20px;
+            opacity: .5;
+        }
+
+    .viene-item.white-panel .cal {
+        position: absolute;
+        width: 30px;
+        top: 20px;
+        right: 15px;
+        opacity: .5;
+    }
+
+    .invg-tab .tipo img {
+        width: 20px;
+        opacity: .5;
+        right: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    .libro-item.white-panel .libro-icon {
+        right: 20px;
+    }
+
+    .buscador-resultado-sec .card {
+        border-bottom: solid 1px #e4e4e4;
+    }
+
+    .card .invg-tab {
+        border-right: 0;
+    }
+
+    .card .viene-item {
+        border-right: 0;
+    }
+
+    .iniciativa-data {
+        background: none;
+        padding: 20px 0;
+        margin-left: 0;
+    }
+
+    .banner-ciup.iniciativas, .banner-ciup.nosotros {
+        text-align: center;
+    }
+
+    .nosotros-sec .share {
+        display: none;
+    }
+
+    .nosotros-sec {
+        border-bottom: 0;
+    }
+
+    .comite-sec {
+        padding-top: 0;
+        background-color: #f6f6f6;
+    }
+
+    .editorial-item {
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .centro-item {
+        background: transparent;
+        box-shadow: none;
+        text-align: center;
+    }
+
+        .centro-item p {
+            color: #938c84;
+        }
+
+    .centros-sec {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .editorial-sec {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .nosotros-sec > .container {
+        /*padding: 0;*/
+    }
+
+    .invest-sec {
+        background: #f6f6f6;
+        padding: 0;
+    }
+
+        .invest-sec .invg-tab {
+            background: transparent;
+            border-right: none;
+        }
+
+        .invest-sec .col-lg-3:not(:last-child) .invg-tab, .invest-sec .col-lg-4:not(:last-child) .invg-tab {
+            border-bottom: solid 1px rgba(0,0,0,.05);
+        }
+
+    .resultado-top-sec .order-invst a {
+        padding: 0 15px;
+    }
+
+    /*.proyecto-detalle-page .date {
+        display: none;
+    }*/
+
+    .proyecto-detalle-page .author-pry h5 {
+        display: none;
+    }
+
+    .proyecto-detalle-page .author-pry p {
+        color: #505050;
+    }
+
+    .proyecto-detalle-page .author-pry .row:last-child {
+        /*display: none;*/
+    }
+
+    .cuerpo-sec {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .cuerpo-text:after {
+        background: #f1f1f1;
+        margin: 0;
+    }
+
+    .download.blue {
+        background: #3048a5;
+        color: #fff;
+    }
+
+        .download.blue img {
+            filter: invert(100%);
+        }
+
+    .table-ficha tr {
+        border-top: solid 1px #000;
+        border-bottom: solid 1px #000;
+        float: left;
+        width: 50%;
+    }
+
+    .table th:not(:last-child), .table td:not(:last-child) {
+        border-bottom: solid 1px #000;
+    }
+
+    .table th, .table td {
+        display: block;
+        height: 71px;
+    }
+
+    .table td {
+        border-right: none !important;
+    }
+
+    .table th {
+        border-right: solid 1px #000;
+    }
+
+    .table-ficha th, .table-ficha td {
+        font-size: 14px;
+    }
+
+    .table .status {
+        font-size: 12px;
+    }
+
+    .ficha h5 {
+        font-size: 24px;
+    }
+
+    .expositores-carousel .owl-stage-outer {
+        margin-right: -30px;
+    }
+
+    .investigadores-carousel .owl-stage-outer {
+        margin-right: -45px;
+    }
+
+    .more {
+        display: block;
+        padding: 10px 25px;
+        border: solid 2px #3652bb;
+        border-radius: 20px;
+        text-align: center;
+        color: #3652bb;
+        text-transform: uppercase;
+        font-size: 12px;
+        width: 200px;
+        margin: 20px auto;
+        transition: all .3s;
+    }
+
+        .more:hover {
+            background: #3652bb;
+            color: #fff;
+            text-decoration: none;
+        }
+
+    .titular .citas {
+        margin-top: 0;
+    }
+
+    .titular-bottom {
+        margin-top: 10px;
+        padding-top: 20px;
+        border-top: solid 1px #f1f1f1;
+    }
+
+    .author-pry h5 {
+        display: none;
+    }
+
+    .author-pry {
+        margin-top: 10px;
+    }
+
+        .author-pry p {
+            color: #505050;
+        }
+
+    .invst-rel-sec .container {
+        overflow: hidden;
+    }
+
+    .section-title:after {
+        width: 20px;
+        height: 3px;
+    }
+
+    .invg-tab {
+        padding: 20px 10px 20px 0;
+    }
+
+        .invg-tab .data {
+            left: 0;
+            bottom: 8px;
+        }
+
+    .resultados-sec .container {
+        overflow: hidden;
+    }
+
+    .noticias-sec.temas .newsq-item img {
+        width: 100%;
+        /*height: auto;*/
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .viene-item.eventos.hoy-resp {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .container.noticias {
+        overflow: hidden;
+    }
+
+    .newsq .owl-stage-outer {
+        margin-right: -30px;
+    }
+
+    /*.noticias-sec .newsq .owl-stage-outer {
+        margin-right: 22px;
+        margin-left: 22px;
+    }*/
+
+
+    .middle-section {
+        overflow: hidden;
+    }
+
+    .investigaciones-sec .owl-stage-outer {
+        margin-right: -50px;
+    }
+
+    .libros-carousel .owl-stage-outer {
+        margin-right: -45px;
+    }
+
+    .revistas-item {
+        padding: 15px 0;
+    }
+
+    .investigaciones-carousel .owl-stage-outer, .eventos-carousel .owl-stage-outer, .publicaciones-carousel .owl-stage-outer {
+        margin-right: -50px;
+    }
+
+    .videos-carousel .owl-stage-outer, .proyectos-carousel .owl-stage-outer, .medios-carousel .owl-stage-outer, .loque-carousel .owl-stage-outer {
+        margin-right: -50px;
+    }
+
+    .agenda-sec, .invest-sec.areas, .nosotros-sec, .last-pub-sec, .invst-rel-sec {
+        overflow: hidden;
+    }
+
+        .agenda-sec .owl-stage-outer, .eventos-carousel-2 .owl-stage-outer {
+            margin-right: -50px;
+        }
+
+        .last-pub-sec + .medios-sec {
+            overflow: hidden;
+        }
+
+    .libro-item .tema {
+        margin-bottom: 20px;
+    }
+
+    .video-item {
+        border-right: solid 1px #f1f1f1;
+        padding-right: 30px;
+    }
+
+    .invest-sec .invg-tab {
+        border-right: solid 1px #f1f1f1;
+    }
+
+    .viene-sec.sec2 {
+        border-bottom: 0;
+    }
+
+    .proyectos-page .invg-tab {
+        border-right: 0;
+    }
+
+        .proyectos-page .invg-tab h4 {
+            font-size: 22px;
+        }
+
+    .lonuevo .lnitem h6 {
+        /*padding-left: 10px;*/
+    }
+
+    .image-content {
+        overflow: hidden;
+        width: 72px;
+        height: 65px;
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .investigaciones-carousel .invg-tab h4 span {
+        min-height: 155px;
+    }
+
+    .libros-carousel .libro-item h4 span {
+        min-height: 73px;
+    }
+
+    .videos-carousel .video-item .link {
+        min-height: 51px;
+    }
+
+    .newsq-item h5 span {
+        min-height: 63px;
+    }
+
+    .invg-tab.white-panel {
+        padding: 0 15px;
+    }
+
+        .invg-tab.white-panel .data {
+            left: inherit;
+        }
+
+    .video-item.white-panel {
+        padding: 20px;
+        border-right: none;
+    }
+
+        .video-item.white-panel .link, .video-item.white-panel .time {
+            padding: 0;
+        }
+
+    .agenda-carousel .agenda-item .title span {
+        min-height: 53px;
+    }
+
+    .agenda-carousel .agenda-item p span {
+        min-height: 67px;
+    }
+
+    .container-fluid.noticias-sec .container.noticias {
+        padding: 0 8px;
+    }
+
+    .container-fluid.comite-sec > .container {
+        padding-bottom: 0;
+    }
+
+    .comite-sec {
+        padding-bottom: 0;
+    }
+
+    .areas-invst-sec {
+        padding: 0;
+    }
+
+    .container-fluid.areas-invst-sec .container__area a:last-child {
+        border: none;
+    }
+
+    .proyectos-page .invg-tab .tipo img {
+        width: 27px;
+        top: -4px;
+    }
+
+    .resultados-sec .section-title{
+        width: 80%;
+    }
+
+    .iniciativas-sec .iniciativa-item{
+        box-shadow: none;
+    }
+
+    .nosotros-sec .event__movil .viene-item.eventos .date{
+        position: static;
+    }
+
+    .nosotros-sec .viene-sec .event__movil {
+        margin-bottom: auto;
+    }
+
+    .revistas-sec{
+        padding-bottom: 0;
+    }
+
+    .module .line-clamp-medios {
+        width: calc(100% - 40px);
+    }
+
+    .medios-sec{
+        padding-bottom: 0;
+    }
+
+    .resultado-top-sec + .invest-sec.proyectos-page .investigaciones-carousel .invg-tab h4 a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+    }
+
+    .noticias-sec + .middle-section .investigaciones-sec .investigaciones-carousel .invg-tab h4 span a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+    }
+
+    .banner-ciup.eventos + .nosotros-sec .viene-sec {
+        padding-bottom: 0;
+    }
+
+    .first-section.eventos-detalle-sec + .agenda-sec {
+        padding-bottom: 0;
+    }
+
+    .libros-sec .section-title {
+        margin-bottom: 10px;
+    }
+
+    .noticias-sec + .middle-section .viene-sec .section-title,
+    .noticias-sec.temas + .middle-section .viene-sec .section-title {
+        margin-bottom: 10px;
+    }
+
+}

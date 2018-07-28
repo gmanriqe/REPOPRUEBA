@@ -1989,4 +1989,12 @@ movil
         margin-bottom: 10px;
     }
 
+    /* ELIMINAR BORDER DEL ULTIMO SLIDER*/
+    .owl-stage-outer .owl-item:last-child .invg-tab, /* ULTIMAS INVESTIGACIONES*/
+    .owl-stage-outer .owl-stage .owl-item:last-child .libro-item, /*LIBROS*/
+    .owl-stage-outer .owl-stage .owl-item:last-child .medios-item, /*MEDIOS*/
+    .owl-stage-outer .owl-stage .owl-item:last-child .video-item { /*VIDEO*/
+        border-right: 0;
+    }
+
 }

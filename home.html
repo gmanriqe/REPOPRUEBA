@@ -908,6 +908,8 @@
 							<img class="type-new" src="img/articulos.svg" alt="">
 							<img class="noticia-pic" src="http://desarrollo.cdiproject.com/CIUP/media/1045/proyecto.jpg" alt="">
 						</div>
+						<!-- efecto hover destacado -->
+						<div class="tipo__nombre">Descripcion Imagen</div>
 						<div class="newsq-data destacado-informacion">
 							<a href="/CIUP/temas/econom&#237;a/macroeconomia/" class="newsq-tema" style="color:#fd7e14">Macroeconom&#237;a</a>
 							<div id="Descripcion" class="destacado-descripcion">
@@ -927,6 +929,7 @@
 							<img class="type-new" src="img/documentos-de-discusion.svg" alt="">
 							<img class="noticia-pic" src="http://ciup.up.edu.pe/media/1168/01-img-prueba.jpg" alt="">
 						</div>
+						<div class="tipo__nombre">Descripcion Imagen</div>
 						<div class="newsq-data destacado-informacion">
 							<a href="/CIUP/temas/econom&#237;a/macroeconomia/" class="newsq-tema" style="color:#fd7e14">Macroeconom&#237;a</a>
 							<div id="Descripcion" class="destacado-descripcion">
@@ -945,6 +948,7 @@
 							<img class="type-new" src="img/articulos.svg" alt="">
 							<img class="noticia-pic" src="http://ciup.up.edu.pe/media/1169/02-img-prueba.jpg" alt="">
 						</div>
+						<div class="tipo__nombre">Descripcion Imagen</div>
 						<div class="newsq-data destacado-informacion">
 							<a href="/CIUP/temas/sociedad-y-cultura/estudios-culturales/" class="newsq-tema" style="color:#e0c434">Estudios culturales</a>
 							<div id="Descripcion" class="destacado-descripcion">
@@ -962,6 +966,7 @@
 						<div class="destacado-imagen">
 							<img class="type-new" src="img/medios.svg" alt="">
 						</div>
+						<div class="tipo__nombre">Descripcion Imagen</div>
 						<div class="newsq-data destacado-informacion">
 							<div id="Descripcion" class="destacado-descripcion">
 								<h5>
@@ -1615,27 +1620,23 @@
 		})
 
 	</script>
-	<!-- <li class="nav-item">
-        <a data-menu="nosotros" class="nav-link" href="nosotros.html">Nosotros</a>
-	</li> -->
-	<script>
-		/*$(document).ready(function(){
-			function removeMobileScroll (e) {
-				e.preventDefault();
-			}
-			setInterval(function(){
-				if($(window).width()<= 769 ){
 
+	<script>
+		$(document).ready(function(){
+
+			$('.type-new').hover( function(){
+					var parent = $(this).parent().next();
+					parent.css({'z-index':'1','opacity':'1'});
+					$(this).css({'opacity':'0'});
+				}, function(){
+					var parent = $(this).parent().next();
+					$(this).css({'opacity':'1'});
+					parent.css({'z-index':'0','opacity':'0'});
 					
-					$('.principal-click').click(function(){
-						$('*').not('.menu-left').bind('touchmove', false);	
-					});
-					
-				}else {
-					$('*').not('.menu-left').unbind('touchmove');
-				}			
-			})
-		},1000)*/
+				}
+				
+			)
+		})
 	</script>
 
 </body>

@@ -12,9 +12,9 @@ $(window).scroll(function () {
         }
         else {
         if ($(this).scrollTop() >= 173 || $(window).width() < 992) { // this refers to window
-                $('.menu-scroll').css({ 'display': 'block', 'opacity': '1'})
+                $('.menu-scroll').css({ 'display': 'block', 'opacity': '1','top':'0'})
             } else {
-                $('.menu-scroll').css({ 'opacity': '0' });
+                $('.menu-scroll').css({ 'opacity': '0', 'top':'-60px'})
             }
         }
     }
